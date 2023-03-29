@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3186E829CD389A00CB44AC /* _0230323_KennethAllen_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3186E729CD389A00CB44AC /* _0230323_KennethAllen_NYCSchoolsApp.swift */; };
+		0D3186EC29CD389C00CB44AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3186EB29CD389C00CB44AC /* Assets.xcassets */; };
+		0D3186EF29CD389C00CB44AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3186EE29CD389C00CB44AC /* Preview Assets.xcassets */; };
+		0D3186F729CD38CE00CB44AC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3186F629CD38CE00CB44AC /* NetworkManager.swift */; };
+		0D3186F929CD38EB00CB44AC /* SchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3186F829CD38EB00CB44AC /* SchoolModel.swift */; };
+		0D3186FB29CD38F500CB44AC /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3186FA29CD38F500CB44AC /* ScoreModel.swift */; };
+		0D3186FD29CD39A000CB44AC /* SchoolModel+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3186FC29CD39A000CB44AC /* SchoolModel+Preview.swift */; };
+		0D3186FF29CD39B000CB44AC /* ScoreModel+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3186FE29CD39B000CB44AC /* ScoreModel+Preview.swift */; };
+		0D81EEDC29CE41E80014D92F /* ScoreFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEDB29CE41E80014D92F /* ScoreFormatter.swift */; };
+		0D81EEDE29CE41F20014D92F /* SchoolFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEDD29CE41F20014D92F /* SchoolFormatter.swift */; };
+		0D81EEE929CE470E0014D92F /* DetailsPageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE029CE470E0014D92F /* DetailsPageContext.swift */; };
+		0D81EEEA29CE470E0014D92F /* DetailsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE129CE470E0014D92F /* DetailsPageView.swift */; };
+		0D81EEEB29CE470E0014D92F /* DetailsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE229CE470E0014D92F /* DetailsPageViewController.swift */; };
+		0D81EEEC29CE470E0014D92F /* DetailsPageContext+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE329CE470E0014D92F /* DetailsPageContext+Preview.swift */; };
+		0D81EEED29CE470E0014D92F /* SchoolsPageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE529CE470E0014D92F /* SchoolsPageContext.swift */; };
+		0D81EEEE29CE470E0014D92F /* SchoolsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE629CE470E0014D92F /* SchoolsPageViewController.swift */; };
+		0D81EEEF29CE470E0014D92F /* SchoolsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE729CE470E0014D92F /* SchoolsPageView.swift */; };
+		0D81EEF029CE470E0014D92F /* SchoolsPageContext+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEE829CE470E0014D92F /* SchoolsPageContext+Preview.swift */; };
+		0D81EEF829CE4BDE0014D92F /* _0230323_KennethAllen_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81EEF729CE4BDE0014D92F /* _0230323_KennethAllen_NYCSchoolsTests.swift */; };
+		0D825FAC29CDCC310081B8EB /* NavigationShellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825FAB29CDCC310081B8EB /* NavigationShellViewController.swift */; };
+		0D825FAE29CDCC4D0081B8EB /* NavigationShellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825FAD29CDCC4D0081B8EB /* NavigationShellRepresentable.swift */; };
+		0D825FB029CDCC870081B8EB /* NavigationShellContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D825FAF29CDCC870081B8EB /* NavigationShellContext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D81EEF929CE4BDE0014D92F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D3186DC29CD389A00CB44AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3186E329CD389A00CB44AC;
+			remoteInfo = "20230323-KennethAllen-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3186E429CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230323-KennethAllen-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3186E729CD389A00CB44AC /* _0230323_KennethAllen_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230323_KennethAllen_NYCSchoolsApp.swift; sourceTree = "<group>"; };
+		0D3186EB29CD389C00CB44AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D3186EE29CD389C00CB44AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D3186F629CD38CE00CB44AC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0D3186F829CD38EB00CB44AC /* SchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolModel.swift; sourceTree = "<group>"; };
+		0D3186FA29CD38F500CB44AC /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
+		0D3186FC29CD39A000CB44AC /* SchoolModel+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SchoolModel+Preview.swift"; sourceTree = "<group>"; };
+		0D3186FE29CD39B000CB44AC /* ScoreModel+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScoreModel+Preview.swift"; sourceTree = "<group>"; };
+		0D81EEDB29CE41E80014D92F /* ScoreFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreFormatter.swift; sourceTree = "<group>"; };
+		0D81EEDD29CE41F20014D92F /* SchoolFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolFormatter.swift; sourceTree = "<group>"; };
+		0D81EEE029CE470E0014D92F /* DetailsPageContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPageContext.swift; sourceTree = "<group>"; };
+		0D81EEE129CE470E0014D92F /* DetailsPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPageView.swift; sourceTree = "<group>"; };
+		0D81EEE229CE470E0014D92F /* DetailsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPageViewController.swift; sourceTree = "<group>"; };
+		0D81EEE329CE470E0014D92F /* DetailsPageContext+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailsPageContext+Preview.swift"; sourceTree = "<group>"; };
+		0D81EEE529CE470E0014D92F /* SchoolsPageContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsPageContext.swift; sourceTree = "<group>"; };
+		0D81EEE629CE470E0014D92F /* SchoolsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsPageViewController.swift; sourceTree = "<group>"; };
+		0D81EEE729CE470E0014D92F /* SchoolsPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsPageView.swift; sourceTree = "<group>"; };
+		0D81EEE829CE470E0014D92F /* SchoolsPageContext+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SchoolsPageContext+Preview.swift"; sourceTree = "<group>"; };
+		0D81EEF529CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230323-KennethAllen-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D81EEF729CE4BDE0014D92F /* _0230323_KennethAllen_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230323_KennethAllen_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		0D825FAB29CDCC310081B8EB /* NavigationShellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationShellViewController.swift; sourceTree = "<group>"; };
+		0D825FAD29CDCC4D0081B8EB /* NavigationShellRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationShellRepresentable.swift; sourceTree = "<group>"; };
+		0D825FAF29CDCC870081B8EB /* NavigationShellContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationShellContext.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D3186E129CD389A00CB44AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D81EEF229CE4BDE0014D92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3186DB29CD389A00CB44AC = {
+			isa = PBXGroup;
+			children = (
+				0D3186E629CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools */,
+				0D81EEF629CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests */,
+				0D3186E529CD389A00CB44AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D3186E529CD389A00CB44AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D3186E429CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools.app */,
+				0D81EEF529CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D3186E629CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				0D3186F529CD38B700CB44AC /* Networking */,
+				0D3186E729CD389A00CB44AC /* _0230323_KennethAllen_NYCSchoolsApp.swift */,
+				0D81EEDF29CE470E0014D92F /* DetailsPage */,
+				0D81EEE429CE470E0014D92F /* SchoolsPage */,
+				0D3186EB29CD389C00CB44AC /* Assets.xcassets */,
+				0D3186ED29CD389C00CB44AC /* Preview Content */,
+				0D825FAB29CDCC310081B8EB /* NavigationShellViewController.swift */,
+				0D825FAD29CDCC4D0081B8EB /* NavigationShellRepresentable.swift */,
+				0D825FAF29CDCC870081B8EB /* NavigationShellContext.swift */,
+				0D81EEDB29CE41E80014D92F /* ScoreFormatter.swift */,
+				0D81EEDD29CE41F20014D92F /* SchoolFormatter.swift */,
+			);
+			path = "20230323-KennethAllen-NYCSchools";
+			sourceTree = "<group>";
+		};
+		0D3186ED29CD389C00CB44AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D3186EE29CD389C00CB44AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D3186F529CD38B700CB44AC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0D3186F629CD38CE00CB44AC /* NetworkManager.swift */,
+				0D3186F829CD38EB00CB44AC /* SchoolModel.swift */,
+				0D3186FA29CD38F500CB44AC /* ScoreModel.swift */,
+				0D3186FC29CD39A000CB44AC /* SchoolModel+Preview.swift */,
+				0D3186FE29CD39B000CB44AC /* ScoreModel+Preview.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0D81EEDF29CE470E0014D92F /* DetailsPage */ = {
+			isa = PBXGroup;
+			children = (
+				0D81EEE029CE470E0014D92F /* DetailsPageContext.swift */,
+				0D81EEE329CE470E0014D92F /* DetailsPageContext+Preview.swift */,
+				0D81EEE129CE470E0014D92F /* DetailsPageView.swift */,
+				0D81EEE229CE470E0014D92F /* DetailsPageViewController.swift */,
+			);
+			path = DetailsPage;
+			sourceTree = "<group>";
+		};
+		0D81EEE429CE470E0014D92F /* SchoolsPage */ = {
+			isa = PBXGroup;
+			children = (
+				0D81EEE529CE470E0014D92F /* SchoolsPageContext.swift */,
+				0D81EEE829CE470E0014D92F /* SchoolsPageContext+Preview.swift */,
+				0D81EEE729CE470E0014D92F /* SchoolsPageView.swift */,
+				0D81EEE629CE470E0014D92F /* SchoolsPageViewController.swift */,
+			);
+			path = SchoolsPage;
+			sourceTree = "<group>";
+		};
+		0D81EEF629CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D81EEF729CE4BDE0014D92F /* _0230323_KennethAllen_NYCSchoolsTests.swift */,
+			);
+			path = "20230323-KennethAllen-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D3186E329CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3186F229CD389C00CB44AC /* Build configuration list for PBXNativeTarget "20230323-KennethAllen-NYCSchools" */;
+			buildPhases = (
+				0D3186E029CD389A00CB44AC /* Sources */,
+				0D3186E129CD389A00CB44AC /* Frameworks */,
+				0D3186E229CD389A00CB44AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20230323-KennethAllen-NYCSchools";
+			productName = "20230323-KennethAllen-NYCSchools";
+			productReference = 0D3186E429CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D81EEF429CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D81EEFB29CE4BDE0014D92F /* Build configuration list for PBXNativeTarget "20230323-KennethAllen-NYCSchoolsTests" */;
+			buildPhases = (
+				0D81EEF129CE4BDE0014D92F /* Sources */,
+				0D81EEF229CE4BDE0014D92F /* Frameworks */,
+				0D81EEF329CE4BDE0014D92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D81EEFA29CE4BDE0014D92F /* PBXTargetDependency */,
+			);
+			name = "20230323-KennethAllen-NYCSchoolsTests";
+			productName = "20230323-KennethAllen-NYCSchoolsTests";
+			productReference = 0D81EEF529CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D3186DC29CD389A00CB44AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0D3186E329CD389A00CB44AC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0D81EEF429CE4BDE0014D92F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0D3186E329CD389A00CB44AC;
+					};
+				};
+			};
+			buildConfigurationList = 0D3186DF29CD389A00CB44AC /* Build configuration list for PBXProject "20230323-KennethAllen-NYCSchools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D3186DB29CD389A00CB44AC;
+			productRefGroup = 0D3186E529CD389A00CB44AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D3186E329CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools */,
+				0D81EEF429CE4BDE0014D92F /* 20230323-KennethAllen-NYCSchoolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D3186E229CD389A00CB44AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3186EF29CD389C00CB44AC /* Preview Assets.xcassets in Resources */,
+				0D3186EC29CD389C00CB44AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D81EEF329CE4BDE0014D92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D3186E029CD389A00CB44AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D81EEEC29CE470E0014D92F /* DetailsPageContext+Preview.swift in Sources */,
+				0D3186FB29CD38F500CB44AC /* ScoreModel.swift in Sources */,
+				0D3186F729CD38CE00CB44AC /* NetworkManager.swift in Sources */,
+				0D81EEE929CE470E0014D92F /* DetailsPageContext.swift in Sources */,
+				0D81EEDE29CE41F20014D92F /* SchoolFormatter.swift in Sources */,
+				0D3186FD29CD39A000CB44AC /* SchoolModel+Preview.swift in Sources */,
+				0D825FB029CDCC870081B8EB /* NavigationShellContext.swift in Sources */,
+				0D3186F929CD38EB00CB44AC /* SchoolModel.swift in Sources */,
+				0D825FAC29CDCC310081B8EB /* NavigationShellViewController.swift in Sources */,
+				0D81EEEA29CE470E0014D92F /* DetailsPageView.swift in Sources */,
+				0D81EEEF29CE470E0014D92F /* SchoolsPageView.swift in Sources */,
+				0D825FAE29CDCC4D0081B8EB /* NavigationShellRepresentable.swift in Sources */,
+				0D3186FF29CD39B000CB44AC /* ScoreModel+Preview.swift in Sources */,
+				0D81EEED29CE470E0014D92F /* SchoolsPageContext.swift in Sources */,
+				0D81EEDC29CE41E80014D92F /* ScoreFormatter.swift in Sources */,
+				0D3186E829CD389A00CB44AC /* _0230323_KennethAllen_NYCSchoolsApp.swift in Sources */,
+				0D81EEEB29CE470E0014D92F /* DetailsPageViewController.swift in Sources */,
+				0D81EEF029CE470E0014D92F /* SchoolsPageContext+Preview.swift in Sources */,
+				0D81EEEE29CE470E0014D92F /* SchoolsPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D81EEF129CE4BDE0014D92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D81EEF829CE4BDE0014D92F /* _0230323_KennethAllen_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D81EEFA29CE4BDE0014D92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3186E329CD389A00CB44AC /* 20230323-KennethAllen-NYCSchools */;
+			targetProxy = 0D81EEF929CE4BDE0014D92F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D3186F029CD389C00CB44AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D3186F129CD389C00CB44AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D3186F329CD389C00CB44AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20230323-KennethAllen-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allen.kenneth.nycschools.-0230323-KennethAllen-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D3186F429CD389C00CB44AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20230323-KennethAllen-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allen.kenneth.nycschools.-0230323-KennethAllen-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D81EEFC29CE4BDE0014D92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenneth.allen.school.tests.-0230323-KennethAllen-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230323-KennethAllen-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230323-KennethAllen-NYCSchools";
+			};
+			name = Debug;
+		};
+		0D81EEFD29CE4BDE0014D92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenneth.allen.school.tests.-0230323-KennethAllen-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230323-KennethAllen-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230323-KennethAllen-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D3186DF29CD389A00CB44AC /* Build configuration list for PBXProject "20230323-KennethAllen-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3186F029CD389C00CB44AC /* Debug */,
+				0D3186F129CD389C00CB44AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3186F229CD389C00CB44AC /* Build configuration list for PBXNativeTarget "20230323-KennethAllen-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3186F329CD389C00CB44AC /* Debug */,
+				0D3186F429CD389C00CB44AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D81EEFB29CE4BDE0014D92F /* Build configuration list for PBXNativeTarget "20230323-KennethAllen-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D81EEFC29CE4BDE0014D92F /* Debug */,
+				0D81EEFD29CE4BDE0014D92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D3186DC29CD389A00CB44AC /* Project object */;
+}
